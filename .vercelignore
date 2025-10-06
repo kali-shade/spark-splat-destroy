@@ -1,0 +1,15 @@
+rust/
+src/
+test/
+scripts/
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
+vite.config.ts
+lefthook.yml
+biome.json
+mkdocs.yml
+CHANGELOG.md
+docs/
+
