@@ -23,16 +23,6 @@ An interactive 3D experience using Gaussian Splatting with real-time physics. Cl
 - Spark (@sparkjsdev/spark)
 - lil-gui for controls
 
-## Local Setup
-
-```bash
-git clone https://github.com/kali-shade/spark-splat-destroy.git
-cd spark-splat-destroy
-# Serve with any HTTP server
-python -m http.server 8000
-# Open http://localhost:8000
-```
-
 ## License
 
 Open source project.
