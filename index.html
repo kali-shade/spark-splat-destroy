@@ -28,10 +28,10 @@
   <script type="importmap">
     {
       "imports": {
-        "three": "/examples/js/vendor/three/build/three.module.js",
-        "three/addons/": "/examples/js/vendor/three/examples/jsm/",
-        "lil-gui": "/examples/js/vendor/lil-gui/dist/lil-gui.esm.js",
-        "@sparkjsdev/spark": "/dist/spark.module.js"
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+        "lil-gui": "https://cdn.jsdelivr.net/npm/lil-gui@0.19.2/dist/lil-gui.esm.js",
+        "@sparkjsdev/spark": "https://sparkjs.dev/dist/spark.module.js"
       }
     }
   </script>
@@ -40,7 +40,6 @@
     import { SplatMesh, dyno, SparkControls, SplatEdit, SplatEditSdf, SplatEditSdfType, SplatEditRgbaBlendMode } from "@sparkjsdev/spark";
     import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
     import { GUI } from "lil-gui";
-    import { getAssetFileURL } from "/examples/js/get-asset-url.js";
 
     // Scene
     const scene = new THREE.Scene();
@@ -208,8 +207,7 @@
     }
 
     // Load a demo splat and a floor model to give context
-    const splatName = "painted-bedroom.spz";
-    const splatURL = await getAssetFileURL(splatName);
+    const splatURL = "https://storage.googleapis.com/forge-dev-public/painted_bedroom.spz";
     const splatMesh = new SplatMesh({ url: splatURL });
     await splatMesh.initialized;
     splatMesh.rotation.x = Math.PI;

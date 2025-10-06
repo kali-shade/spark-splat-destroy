@@ -2,6 +2,8 @@ rust/
 src/
 test/
 scripts/
+examples/
+docs/
 node_modules/
 package.json
 package-lock.json
@@ -11,5 +13,6 @@ lefthook.yml
 biome.json
 mkdocs.yml
 CHANGELOG.md
-docs/
+examples.html
+LICENSE
 
