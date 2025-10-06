@@ -1,4 +1,4 @@
-# Splat Destroy
+# Splat Destroy using spark.js
 
 An interactive 3D experience using Gaussian Splatting with real-time physics. Click on splats to create explosions with customizable radius.
 
@@ -6,7 +6,7 @@ An interactive 3D experience using Gaussian Splatting with real-time physics. Cl
 
 - Click on splats to trigger radius-based explosions
 - Real-time physics simulation (gravity, bounce, friction)
-- Adjustable explosion strength and radius via GUI
+- Adjustable explosion strength, radius and gravity via GUI
 - Support for up to 128 simultaneous explosions
 - Reset button to restore original state
 
@@ -21,7 +21,6 @@ An interactive 3D experience using Gaussian Splatting with real-time physics. Cl
 
 - Three.js
 - Spark (@sparkjsdev/spark)
-- WebGL with custom shaders
 - lil-gui for controls
 
 ## Local Setup
