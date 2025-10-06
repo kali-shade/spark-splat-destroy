@@ -8,3 +8,4 @@ site/
 site-repo/
 *.zip
 *.gltf
+.vercel
